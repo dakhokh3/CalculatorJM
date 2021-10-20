@@ -41,7 +41,7 @@ public class LineCheck {
                 Calc res = new Calc();
                 int result;
                 result = res.calc(number1, number2, opr);
-                return RomanNumber.toRoman(result);
+                return ResToRoman.toRoman(result);
             }
         } else if ((Character.isDigit(c.charAt(0)) & Character.isLetter(b.charAt(0))) |
                 ((Character.isLetter(c.charAt(0)) & Character.isDigit(b.charAt(0))))) {

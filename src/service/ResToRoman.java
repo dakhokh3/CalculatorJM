@@ -3,7 +3,7 @@ package service;
 import java.util.Collection;
 import java.util.TreeMap;
 
-public class RomanNumber {
+public class ResToRoman {
 
     private final static TreeMap<Integer, String> map = new TreeMap<Integer, String>();
 
