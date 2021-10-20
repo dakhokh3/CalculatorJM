@@ -28,7 +28,6 @@ public class LineCheck {
                 throw new Exception("Формат математической операции не удовлетворяет заданию - " +
                         "два операнда(числа от 1 до 10 включительно) и один оператор (+, -, /, *)");
             }
-            return 0;
         } else if (Character.isLetter(c.charAt(0)) & Character.isLetter(b.charAt(0))) {
             String num1 = array[0];
             String num2 = array[1];
@@ -47,6 +46,6 @@ public class LineCheck {
                 ((Character.isLetter(c.charAt(0)) & Character.isDigit(b.charAt(0))))) {
             throw new Exception("Используются одновременно разные системы счисления");
         }
-        return 0;
+        return null;
     }
 }
